@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+
+    
+}
+form{
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px ;
+    padding-right:20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menuBar{
+    font-size: medium;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin:3px;
+    padding: 4px;
+    list-style: none;
+}
+.list-item{
+    padding: 4px;
+    margin:4px;
+
+    }
+
+    h2{
+        background-color:white;
+        font-weight:bold;
+        font-style:Times New Roman;
+    
+    }
+    h2{ 
+        box-sizing: border-box;
+        background-color: red;
+        border: 5px solid red;
+    }
+
+    .login{
+        background-color: yellow;
+        font-weight: bold;
+        color: blue;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .name{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 30px;
+        font-style:normal;
+        background-color: yellow;
+        color: blue;
+    }
+    .input{
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
